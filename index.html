@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Titanic Survivors</title>
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- D3 -->
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+</head>
+<body>
+	<div><h1>Who Survived the Titanic</h1></div>
+	<div id="buttons">
+		<button class="button" id="gender-button">Gender</button>
+		<button class="button" id="class-button">Class</button>
+		<button class="button" id="age-button">Age</button>
+		<button class="button" id="sibsp-button">Siblings/Spouse</button>
+		<button class="button" id="parch-button">Parents/Children</button>
+		<input type="checkbox" id="survived-checkbox">
+		<label for="survived-checkbox">Separate Survived and Dead</label>
+	</div>
+	<div id="svg"></div>
+	<script src="js/index.js"></script>
+</body>
+</html>
