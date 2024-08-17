@@ -1,20 +1,24 @@
+body {
+  margin: 0;
+}
+
 div {
-	display: flex;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 button {
-	margin: 0 5px;
+  margin: 0 5px;
 }
 
 button.active {
-	background-color: #000;
-	color: #FFF;
+  background-color: #000;
+  color: #fff;
 }
 
 #tooltip {
-	display: block;
-	background-color: rgba(255, 255, 255, 0.9);
-	padding: 8px;
-	font-weight: bold;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 8px;
+  font-weight: bold;
 }
